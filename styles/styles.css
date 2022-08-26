@@ -8,9 +8,9 @@
   margin-top: 3em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 /* good website for box shadows: https://getcssscan.com/css-box-shadow-examples */
 
+/* header styling */
 .header {
   background: #02124f;
   padding: 30px;
@@ -20,6 +20,7 @@
 
 .todo-title {
   font-size: 33px;
+  font-weight: 600;
 }
 
 /* style for input */
@@ -46,9 +47,30 @@ input {
   cursor: pointer;
   border-radius: 15px;
   transition: 0.3s;
+  font-weight: 400;
 }
 
 .add-button:hover {
   background-color: #f05dc1;
   color: #fff;
+}
+
+/* list styling */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 8px 12px 40px;
+  background: #fcfcfc;
+  font-size: 16px;
+  font-weight: 300;
+  transition: 0.2s;
+}
+
+ul li:hover {
+  background: #ddd;
 }
