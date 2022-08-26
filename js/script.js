@@ -59,6 +59,7 @@ function newElement() {
     //this is getting the data from line 54 and adding it to the list through id
     document.getElementById("my-list").appendChild(task);
   }
+  //make input empty again
   document.getElementById("my-input").value = "";
 
   //add the deleting functionality to the new list item
