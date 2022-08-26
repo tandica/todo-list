@@ -1,3 +1,54 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* good website for box shadows: https://getcssscan.com/css-box-shadow-examples */
+
+.header {
+  background: #02124f;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.todo-title {
+  font-size: 33px;
+}
+
+/* style for input */
+input {
+  margin-right: 3em;
+  border: none;
+  border-radius: 15px;
+  width: 75%;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.add-tasks {
+  display:flex;
+}
+
+/* style for add button */
+.add-button {
+  padding: 10px;
+  width: 25%;
+  background: white;
+  color: #555;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  background-color: #f05dc1;
+  color: #fff;
+}
